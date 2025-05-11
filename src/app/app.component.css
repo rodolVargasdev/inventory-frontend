@@ -1,0 +1,72 @@
+.sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fafafa;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1.app-name {
+    margin-left: 8px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.header h3 {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+mat-nav-list a {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+mat-nav-list mat-icon {
+    margin-right: 16px;
+}
+
+mat-sidenav {
+    width: 250px;
+}
+
+mat-sidenav-content {
+    padding: 20px;
+}

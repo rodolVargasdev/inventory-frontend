@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mat-typography {
+    margin: 0;
+}
+
+/* Estilos para el sidenav */
+.mat-sidenav-container {
+    height: 100vh;
+}
+
+.mat-sidenav {
+    width: 250px;
+}
+
+/* Estilos para el toolbar */
+.mat-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Estilos para el contenido principal */
+.mat-sidenav-content {
+    padding-top: 64px; /* Altura del toolbar */
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+}
