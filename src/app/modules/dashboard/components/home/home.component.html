@@ -1,1 +1,29 @@
-<p>home works!</p>
+<div class="home-container">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Bienvenido al Sistema de Inventario</mat-card-title>
+            <mat-card-subtitle>Panel de Control</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>Aquí podrás gestionar todo tu inventario de manera eficiente.</p>
+            <mat-grid-list cols="2" rowHeight="100px">
+                <mat-grid-tile>
+                    <mat-card class="dashboard-card">
+                        <mat-card-content>
+                            <mat-icon>inventory_2</mat-icon>
+                            <span>Total Productos</span>
+                        </mat-card-content>
+                    </mat-card>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-card class="dashboard-card">
+                        <mat-card-content>
+                            <mat-icon>shopping_cart</mat-icon>
+                            <span>Ventas del Día</span>
+                        </mat-card-content>
+                    </mat-card>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </mat-card-content>
+    </mat-card>
+</div>
